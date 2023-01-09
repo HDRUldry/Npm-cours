@@ -1,24 +1,16 @@
-//const express = require("express");
 import express from "express";
-const app = express();
-const contacts = [
-  {
-    nom: "alexandre",
-    Tel: "09090909909",
-  },
+import * as controller from "./controller.js";
 
-  {
-    nom: "ROBERT",
-    Tel: "09090909909",
-  },
-];
+const app = express();
 
 app.get("/", function (req, res) {
-  res.send("BONJOUR LE MONDE");
+  res.send("Hello EPSI");
 });
 
-app.get("/api/contacts", function (req, res) {
-  res.status(200).json(contacts);
-});
+app.get("/api/contacts", controller.getContacts);
+
+app.get("/api/contacts/:id", controller.getContact);
+
+app;
 
 export default app;

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1673253604012" clover="3.2.0">
-  <project timestamp="1673253604013" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="10" coveredelements="10" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1673260020852" clover="3.2.0">
+  <project timestamp="1673260020853" name="All files">
+    <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="8" coveredelements="4" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="app.js" path="C:\Users\alghesqu\OneDrive - Capgemini\Desktop\EPSI\Semaine 2 _JS_Integration continue\Cours JavaScript\Exercices\capgemini API\app.js">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
+      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
       <line num="20" count="1" type="stmt"/>
-      <line num="21" count="2" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
