@@ -24,6 +24,7 @@ describe("Test the /api/contacts path", () => {
       .then((response) => {
         // console.log(response)
         expect(response.statusCode).toBe(200);
+        // expect(response.body[0].nom).toBe("Xavier");
       });
   });
   test("should return nom key in response", () => {
